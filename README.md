@@ -125,6 +125,7 @@ crontab -e
 ### 📌 Вимоги
 
 * Встановлений **[.NET 10.0 SDK](https://dotnet.microsoft.com/download)**.
+* Встановлений **[Git](https://git-scm.com/downloads)**.
 * Термінал з підтримкою **PowerShell** (Windows) або **Bash** (Linux/macOS).
 
 ### 🚀 Покроковий запуск 
