@@ -30,7 +30,7 @@ TikTok Fire Automation simulates real user actions: it initializes a session, sc
 ### 🚀 Setup Steps
 1. **Clone the repository and navigate directly to the project folder:**
    ```bash
-   git clone https://github.com/diator777/TikTokFireAutomation.git && cd TikTokFireAutomation/TikTokFireAutomation
+   git clone https://github.com/DiaToR777/TikTokStreakSaver.git && cd TikTokFireAutomation/TikTokFireAutomation
    
 2. **Build and run the project for the first time** to generate the required folders:
    ```bash
@@ -137,7 +137,7 @@ crontab -e
 
 1. **Клонуйте репозиторій та відразу перейдіть у папку з проєктом:**
 ```bash
-git clone https://github.com/diator777/TikTokFireAutomation.git && cd TikTokFireAutomation/TikTokFireAutomation
+git clone https://github.com/DiaToR777/TikTokStreakSaver.git && cd TikTokFireAutomation/TikTokFireAutomation
 
 ```
 
