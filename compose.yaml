@@ -1,0 +1,12 @@
+﻿services:
+  tiktok-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tiktok-automation-bot
+    restart: unless-stopped
+    volumes:
+      - ./config.json:/app/config.json
+      - ./cookies.json:/app/cookies.json
+      - ./logs:/app/logs
+      - ./user_profile:/app/user_profile
