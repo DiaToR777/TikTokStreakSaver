@@ -118,8 +118,17 @@ crontab -e
 0 10 * * * cd /opt/tiktok-bot && /usr/bin/docker compose up >> /opt/tiktok-bot/logs/cron.log 2>&1
 
 ```
+## 🤝 Contributing & Support
+Found a bug, TikTok changed their web interface, or you have a cool idea? 
+Feel free to open an [Issue](https://github.com/diator777/TikTokStreakSaver/issues)!
 
----
+Pull Requests are always welcome. If you want to contribute:
+1. **Fork** the repository.
+2. Create your feature branch (`git checkout -b feature/CoolStuff`).
+3. Commit your changes (`git commit -m 'Add some CoolStuff'`).
+4. Push to the branch (`git push origin feature/CoolStuff`).
+5. Open a **Pull Request**.
+
 
 # 🇺🇦 Українська документація
 
@@ -236,3 +245,14 @@ crontab -e
 
 * **Logs:** All actions are logged to the console and to `./logs/bot-log.txt`. / Всі дії пишуться в консоль та зберігаються у `./logs/bot-log.txt`.
 * **Screenshots:** If an error occurs, the bot saves a screenshot at `./logs/error_[Name].png`. / Якщо сталася помилка, бот збереже скріншот у папку `./logs/error_[Ім'я].png`.
+
+## 🤝 Зворотний зв'язок та Допомога проєкту
+Знайшли баг, TikTok оновив дизайн, або є ідея для покращення? 
+Сміливо створюйте [Issue](https://github.com/diator777/TikTokStreakSaver/issues)!
+
+Якщо хочете допомогти з кодом, Pull Requests завжди вітаються:
+1. Зробіть **Fork** репозиторію.
+2. Створіть нову гілку (`git checkout -b feature/CoolStuff`).
+3. Зробіть коміт змін (`git commit -m 'Add some CoolStuff'`).
+4. Запуште гілку (`git push origin feature/CoolStuff`).
+5. Відкрийте **Pull Request**.
