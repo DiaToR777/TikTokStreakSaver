@@ -144,6 +144,7 @@ public class TikTokBot
 
             var inputArea = page.Locator("[data-e2e='dm-new-input-editor'] [contenteditable='true']");
             await inputArea.WaitForAsync(new() { Timeout = 5000 });
+            await page.EvaluateAsync("() => document.querySelector('tiktok-cookie-banner')?.remove()");
             await inputArea.ClickAsync();
 
             await inputArea.TypeAsync(_config.DefaultText, new() { Delay = 100 });
