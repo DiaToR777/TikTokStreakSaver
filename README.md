@@ -1,4 +1,9 @@
-# 🔥 TikTok Fire Automation
+# 🔥 TikTok Streak Saver
+![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-Automated-2EAD33?logo=playwright)
+
+
 
 Automatically keep your TikTok Streaks alive by sending messages through the official TikTok Web interface.  
 Автоматична підтримка "вогників" (Streaks) в TikTok через офіційний веб-інтерфейс.
