@@ -18,8 +18,10 @@ RUN dotnet publish "./TikTokFireAutomation.csproj" \
 FROM mcr.microsoft.com/playwright/dotnet:v1.61.0 AS final
 WORKDIR /app
 
+RUN apt-get update && apt-get install -y xvfb && rm -rf /var/lib/apt/lists/*
+
 COPY --from=build /app/publish .
 
 RUN mkdir -p /app/logs /app/user_profile
 
-ENTRYPOINT ["./TikTokFireAutomation"]
+ENTRYPOINT ["xvfb-run", "--server-args=-screen 0 1280x1024x24", "./TikTokFireAutomation"]
